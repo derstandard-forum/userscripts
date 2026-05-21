@@ -18,32 +18,32 @@
 // ==/UserScript==
 
 (function() {
-    'use strict';
-	
+	'use strict';
+
 	console.info("BEGIN derStandard-Forum - ShowAllPagesAndAnswers...")
 
 	const forumObserver = new MutationObserver( () => {
-		
-		const forum = document.querySelector( 'dst-forum[contentid]' );
+
+		const forum = document.querySelector('dst-forum[contentid]');
 		if (!forum) return;
-		
+
 		forumObserver.disconnect();
 		const section = forum.shadowRoot.querySelector('section#forum');
 		observeButtons(section);
 
-	}) // MutationObserver
-	
+	}) // forumObserver
+
 	function observeButtons(section) {
 
 		const buttonsObserver = new MutationObserver( () => {
 			const buttons = section.querySelectorAll('button.thread--more');
 			buttons.forEach(btn => btn.click());
-    })
-		
-    buttonsObserver.observe(section, { childList: true, subtree: true })
+		})
+
+		buttonsObserver.observe(section, { childList: true, subtree: true })
 
 	} // observeButtons()
-	
+
 	const postings = document.querySelector('div.story-community-postings');
 	forumObserver.observe(postings, { childList: true, subtree: true })
 
