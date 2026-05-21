@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         derStandard-Forum - Alle Seiten und Antworten anzeigen
-// @description  Zeigt in STANDARD-Foren wirklich alle Seiten und Antworten an. Beachte: Bei langen Foren kann das einige Zeit dauern!
-// @version      20260520-2211
+// @description  Zeigt in STANDARD-Foren wirklich alle Seiten und Antworten an. Beachte: Bei langen Foren kann das einige Zeit dauern und die Perfomance des Browsers verringern!
+// @version      20260521-2310
 // @author       Dark Matters
 // @icon         https://b.staticfiles.at/s/icons/nachrichten/favicon-16x16.png
 // @license      GNU GPLv3 <http://www.gnu.org/licenses/gpl-3.0.html>
