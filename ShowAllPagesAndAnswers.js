@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         derStandard-Forum - Alle Seiten und Antworten anzeigen
+// @name         derStandard-Forum - Klappe auf (KLAU)
 // @description  Zeigt in STANDARD-Foren wirklich alle Seiten und Antworten an. Beachte: Bei langen Foren kann das einige Zeit dauern und die Perfomance des Browsers verringern!
-// @version      20260521-2310
+// @version      20260527-1324
 // @author       Dark Matters
 // @icon         https://b.staticfiles.at/s/icons/nachrichten/favicon-16x16.png
 // @license      GNU GPLv3 <http://www.gnu.org/licenses/gpl-3.0.html>
